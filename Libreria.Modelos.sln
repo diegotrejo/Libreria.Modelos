@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria.API", "Libreria.AP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Librerria.API.Consumer", "Librerria.API.Consumer\Librerria.API.Consumer.csproj", "{A7783A38-697F-4FE9-A93B-C114418ABD16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria.Test", "Libreria.Test\Libreria.Test.csproj", "{6FA0811A-490F-4338-B69F-AA65C342CC03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{A7783A38-697F-4FE9-A93B-C114418ABD16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7783A38-697F-4FE9-A93B-C114418ABD16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7783A38-697F-4FE9-A93B-C114418ABD16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA0811A-490F-4338-B69F-AA65C342CC03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA0811A-490F-4338-B69F-AA65C342CC03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA0811A-490F-4338-B69F-AA65C342CC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA0811A-490F-4338-B69F-AA65C342CC03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

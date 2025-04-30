@@ -93,7 +93,7 @@ namespace Libreria.API.Migrations
                         column: x => x.AutorCodigo,
                         principalTable: "Autores",
                         principalColumn: "Codigo",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                     table.ForeignKey(
                         name: "FK_Libros_Editoriales_EditorialCodigo",
                         column: x => x.EditorialCodigo,
