@@ -41,6 +41,8 @@ namespace Libreria.Test
             {
                 Console.WriteLine($"Codigo: {l.Codigo}, Titulo: {l.Titulo}, Autor: {l.Autor.Nombre}, Editorial: {l.Editorial.Nombre}, AnioPublicacion: {l.AnioPublicacion}, CantidadEjemplares: {l.CantidadEjemplares}, Genero: {l.Genero}, CantidadPaginas: {l.CantidadPaginas}");
             }
+
+            Crud<Libro>.Delete(libro.Codigo); // eliminar el libro
         }
 
         private static void ProbarPaises()
@@ -69,6 +71,8 @@ namespace Libreria.Test
             {
                 Console.WriteLine($"Codigo: {p.Codigo}, Nombre: {p.Nombre}, Continente: {p.Continente}, Moneda: {p.Moneda}, Idioma: {p.Idioma}, Capital: {p.Capital}");
             }
+
+            Crud<Pais>.Delete(pais.Codigo); // eliminar el pais
         }
 
         private static void ProbarAutores()

@@ -8,9 +8,11 @@ namespace Libreria.Modelos
 
         public string Nombre { get; set; } 
 
+        // FK
         public int PaisCodigo { get; set; } 
 
         public Pais? Pais { get; set; }
+
         public List<Libro>? Libros { get; set; } 
     }
 }
